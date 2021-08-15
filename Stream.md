@@ -429,3 +429,19 @@ Collectors.counting())); // the downstream collector
 
 ```
 - Collectors.counting() just counts the number of people of each age.
+
+**So What is a Stream?**
+
+- An object that allows one to define processings on data.
+  1. There is no limit on the amount of data that can be processed.
+
+- Those processings are typically map/filter/reduce operations.
+
+- Those processings are optimized:
+ - First,  we define all the operations.
+ - Then, the operations are triggered.
+
+Last Remark:
+ - A Stream cannot be << reused >>
+ - Once it has been used to process a set of data, it cannot be used again to process another set.
+ 

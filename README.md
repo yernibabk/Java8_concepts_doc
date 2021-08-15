@@ -276,3 +276,5 @@ List<Person> list = new ArrayList<>();
 - This is the reduction step, equivalent to the sql aggregation.
 
 (It's just a simple function that will resume all the integers in one integer )
+
+## [Stream](https://github.com/yernibabk/Java8_concepts_doc/blob/main/Stream.md)
